@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #444;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size:2rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+.tareas{
+    list-style: none;
+}
+
+.tareas__link{
+    text-decoration: none;
+    color: #eee;
+    font-family: sans-serif;
+    transition: 0.2s all ease;
+
+}
+
+.tareas__link:hover{
+    font-size: 1.2rem;
+}
