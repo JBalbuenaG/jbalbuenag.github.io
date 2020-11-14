@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-desktop.svg');
+}
+
+.header{
+    height: 90px;
+    /*background-color: blue;*/
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.header__logo{
+    margin-left: 80px;
+}
+.header__logo img{
+    width: 65%;
+}
+
+.container{
+    height: 560px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.container__image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.container__image img{
+    height: 90%;
+    position: relative;
+}
+
+.container__content{
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;    
+}
+
+.container__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #eee;
+    margin-bottom:20px;
+}
+
+
+.container__summary{
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    color: #eee;
+    margin-bottom: 30px;
+}
+
+.container__btn{
+    width:180px;
+    height: 50px;
+    border-radius:25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    outline: none;
+    box-shadow: #333 3px 3px 12px;
+    cursor: pointer;
+}
+
+.footer__media{
+    
+    height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_facebook{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    color: #eee;
+    margin-right: 15px;
+}
+.footer_twitter{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    color: #eee;
+    margin-right: 15px;
+}
+.footer_ig{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    color: #eee;
+    margin-right: 80px;
+}
+
+
